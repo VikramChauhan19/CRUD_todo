@@ -20,7 +20,7 @@ export default function Navbar() {
 						<Text fontSize={"40"}>+</Text>
 						<img src='/go.png' alt='logo' width={40} height={40} />
 						<Text fontSize={"40"}>=</Text>
-						<img src='/explode.png' alt='logo' width={50} height={50} />
+						<img src='/flexed.png' alt='logo' width={80} height={150} style={{ marginTop: "-10px" }} />
 					</Flex>
 
 					{/* RIGHT SIDE */}
