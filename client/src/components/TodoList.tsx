@@ -14,7 +14,7 @@ const TodoList = () => {
     queryKey: ["todos"],
     queryFn: async () => {
       try {
-        const res = await fetch(BASE_URL+"todos");
+        const res = await fetch(BASE_URL+"/todos");
         const data = await res.json();
         if (!res.ok) { 
           throw new Error(data.error || "something went wrong");
